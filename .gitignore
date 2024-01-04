@@ -1,8 +1,7 @@
 .DS_Store
 .ipynb_checkpoints/
-Carol_Classifier/
 documentation/
 out/
-koledy/mp3
-koledy/backup
-koledy/melody_extracts
+koledy/
+validation_data/
+Spectrogram_analysis/
