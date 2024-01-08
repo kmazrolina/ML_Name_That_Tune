@@ -13,8 +13,6 @@ The repository contains a project focused on classifying Polish Christmas Carols
   - `Data_prep.ipynb`: Jupyter notebook focusing on data preparation.
   - `Melody_extractor.ipynb`: Jupyter notebook dedicated to main melody extraction.
 
-- **requirements.txt**: Lists the project dependencies. Install them using `pip install -r requirements.txt`.
-
 
 This project aims to classify music based on structural features, specifically focusing on melodies independent from key or tempo. The primary focus is on Polish Christmas Carols (kolędy). The approach is based on three key references [Serra et al. (2009)](https://iopscience.iop.org/article/10.1088/1367-2630/11/9/093017), [Chen et al. (2017)](https://www.semanticscholar.org/paper/Fusing-similarity-functions-for-cover-song-Chen-Li/6f2da13375b518a07d2b151bcff41d66a3c005c1), [ChromaCoverId](https://github.com/albincorreya/ChromaCoverId/) by [@albincorreya](https://github.com/albincorreya) that contribute to the understanding and methodology used in the project.
 
