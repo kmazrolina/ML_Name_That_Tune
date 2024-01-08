@@ -18,7 +18,7 @@ The repository contains a project focused on classifying Polish Christmas Carols
 - **requirements.txt**: Lists the project dependencies. Install them using `pip install -r requirements.txt`.
 
 
-This project aims to classify music based on structural features, specifically focusing on melodies independent from key or tempo. The primary focus is on Polish Christmas Carols (kolędy). The approach is based on three key references [Serra et al. (2009)](https://iopscience.iop.org/article/10.1088/1367-2630/11/9/093017), [Chen et al. (2017)], [ChromaCoverId](https://github.com/albincorreya/ChromaCoverId/) by @albincorreya that contribute to the understanding and methodology used in the project.
+This project aims to classify music based on structural features, specifically focusing on melodies independent from key or tempo. The primary focus is on Polish Christmas Carols (kolędy). The approach is based on three key references [Serra et al. (2009)](https://iopscience.iop.org/article/10.1088/1367-2630/11/9/093017), [Chen et al. (2017)], [ChromaCoverId](https://github.com/albincorreya/ChromaCoverId/) by [@albincorreya](https://github.com/albincorreya) that contribute to the understanding and methodology used in the project.
 
 ## Problem Statement
 
