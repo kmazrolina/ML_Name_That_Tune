@@ -12,8 +12,6 @@ The repository contains a project focused on classifying Polish Christmas Carols
   - `ChromaCoverId`: Component related to chroma feature extraction cloned from [here](https://github.com/albincorreya/ChromaCoverId).
   - `Data_prep.ipynb`: Jupyter notebook focusing on data preparation.
   - `Melody_extractor.ipynb`: Jupyter notebook dedicated to main melody extraction.
-  - `koledy`: Directory storing the dataset of Polish Christmas Carols.
-  - `validation_data`: Directory containing validation data.
 
 - **requirements.txt**: Lists the project dependencies. Install them using `pip install -r requirements.txt`.
 
