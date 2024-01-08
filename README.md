@@ -18,11 +18,19 @@ The repository contains a project focused on classifying Polish Christmas Carols
 - **requirements.txt**: Lists the project dependencies. Install them using `pip install -r requirements.txt`.
 
 
-This project aims to classify music based on structural features, specifically focusing on melodies independent from key or tempo. The primary focus is on Polish Christmas Carols (kolędy). The approach is based on three key references [Serra et al. (2009)](https://iopscience.iop.org/article/10.1088/1367-2630/11/9/093017), [Chen et al. (2017)], [ChromaCoverId](https://github.com/albincorreya/ChromaCoverId/) by [@albincorreya](https://github.com/albincorreya) that contribute to the understanding and methodology used in the project.
+This project aims to classify music based on structural features, specifically focusing on melodies independent from key or tempo. The primary focus is on Polish Christmas Carols (kolędy). The approach is based on three key references [Serra et al. (2009)](https://iopscience.iop.org/article/10.1088/1367-2630/11/9/093017), [Chen et al. (2017)](https://www.semanticscholar.org/paper/Fusing-similarity-functions-for-cover-song-Chen-Li/6f2da13375b518a07d2b151bcff41d66a3c005c1), [ChromaCoverId](https://github.com/albincorreya/ChromaCoverId/) by [@albincorreya](https://github.com/albincorreya) that contribute to the understanding and methodology used in the project.
 
 ## Problem Statement
 
 The aim is similar to Cover Song Identification, which involves the classification of music based on its structural elements, particularly melodies. The goal is to distinguish between different versions of the same song performed by various artists while disregarding factors such as key or tempo variations.
+
+## Measures
+The **Harmonic Pitch Class Profile (HPCP)** was employed as a reliable musical descriptor for Cover Song Identification. HPCP focuses on specific frequency ranges where the main musical information is found, reducing the influence of unwanted noise in the analysis. Additionally, HPCP takes into account harmonics (multiples of the fundamental frequency) to make the analysis independent of the specific tuning of the instrument. This helps in extracting features related to the musical notes' distinct colors or "chroma."
+
+The project utilizes the **dMax measure** to compute distances between two samples represented by HPCP vectors. 
+
+The **k-Nearest Neighbors (KNN)** algorithm for effective classification was used, utilizing dMax as distance between datapoints.
+
 
 ## Results
 
