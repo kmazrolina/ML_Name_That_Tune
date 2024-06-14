@@ -1,6 +1,4 @@
 # Name That Tune: Jaka to kolęda?
-### JiBAD Projekt Zaliczeniowy
-#### Karolina Źróbek
 
 ## Overview
 
